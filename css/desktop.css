@@ -1,0 +1,17 @@
+@media (min-width: 800px) {
+    .ipDataList {
+        width: 100%;
+        display: flex;
+    }
+    .ipInfo li {
+        text-align: left;
+    }
+    .ipInfo p {
+        text-align: left;
+        padding: 5px 0px;
+    }
+    .ipDataDiv {
+        width: 25%;
+        padding: 10px;
+    }
+}
