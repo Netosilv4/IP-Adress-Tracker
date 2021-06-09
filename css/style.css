@@ -25,7 +25,7 @@ a:hover {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background-image: url(./images/pattern-bg.png)
+    background-image: url(../images/pattern-bg.png)
 }
 
 .headerDiv h1 {
