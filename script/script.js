@@ -62,4 +62,4 @@ const defaultIp = () => {
         })
     } 
 
-window.onload(defaultIp())
+defaultIp()
