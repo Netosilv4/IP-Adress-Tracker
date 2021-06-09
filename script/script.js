@@ -53,7 +53,6 @@ const defaultIp = () => {
     fetch(url, fetchObject)
     .then(response => response.json())
     .then(response => {
-        console.log(response)
         ipInfo[0].innerText = response.ip
         ipInfo[1].innerText = `${response.location.city}, ${response.location.region} ${response.location.geonameId}`
         ipInfo[2].innerText = `UTC ${response.location.timezone}`
